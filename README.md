@@ -1,27 +1,69 @@
-# AI Question Scanner
+# 🔍 Questions Scanner
 
-Scan a question, understand the solution, and learn the idea behind it.
+### 📚 Scan • Extract • Learn
 
-## Start locally
+**Questions Scanner** is a simple and useful web application that helps students scan question papers or question images and quickly extract the questions in a clear, readable format.
 
-1. Install dependencies with `npm install`.
-2. Copy `.env.example` to `.env` and set `GEMINI_API_KEY` on the server only.
-3. Start the API in one terminal with `npm run server`.
-4. Start the web app in another terminal with `npm run dev` and open the Vite URL.
+## 🚀 Features
 
-The API listens on port 3001. Set `APP_ORIGIN` to the exact frontend origin when it differs from the local Vite defaults. Keep `.env` private; `.gitignore` excludes it. The Gemini key is never sent to the browser.
+* 📷 Upload or scan question images
+* 🔎 Extract questions from images
+* 📝 Display extracted questions clearly
+* 📚 Useful for students and learners
+* ⚡ Simple and easy-to-use interface
+* 📱 Responsive design for mobile and desktop
+* 🎯 Helps save time when working with question papers
 
-## Included
+## 🎓 Who Can Use It?
 
-- Camera capture with review, rotate, crop-to-frame, retake, and device-supported flash.
-- Image, PDF, and typed-question submission, with file type and 12 MB size checks.
-- Gemini question reading, subject/topic detection, explanation, steps, and a separate solution-verification request.
-- Contextual tutor chat, English/Hindi/Telugu answer language, and browser speech playback.
-- Local question history and a progress view; uploaded files are not retained in history.
-- A development-only Vite proxy routes `/api` requests to the Express server.
+Questions Scanner is useful for:
 
-PDFs are sent to Gemini as uploaded documents; results depend on the configured Gemini model and its document-reading limits. Batch solving sends the extracted questions sequentially, stopping if any question fails. It is not a guaranteed bulk-processing service.
+* 👨‍🎓 School Students
+* 🎓 College Students
+* 🧑‍💻 Engineering Students
+* 👩‍🏫 Teachers
+* 📖 Exam Preparation
 
-## Not connected yet
+## 🛠️ Technologies Used
 
-User accounts, cloud sync, secure code execution, handwriting/diagram recognition, and adaptive practice scoring require additional services and are intentionally not simulated. Accuracy figures are not fabricated; the app reports qualitative OCR/verification confidence returned by the model.
+* HTML
+* CSS
+* JavaScript
+* OCR / Text Extraction Technology
+
+## 💡 How It Works
+
+1. Open **Questions Scanner**
+2. Upload or scan a question image
+3. The application processes the image
+4. Questions are extracted from the image
+5. View and use the extracted questions
+
+## 🌟 Why Questions Scanner?
+
+Reading questions from images manually can take time. Questions Scanner makes the process easier by converting questions from images into readable digital text.
+
+## 📌 Project Goal
+
+The goal of **Questions Scanner** is to create a simple student-friendly tool that makes studying, reviewing, and organizing questions easier.
+
+## 🔮 Future Enhancements
+
+* 🤖 AI-powered question recognition
+* 📄 PDF question-paper scanning
+* ✏️ Edit extracted questions
+* 💾 Save and download questions
+* 📊 Automatic question categorization
+* 🧠 AI-generated answers and explanations
+* 🌐 Multi-language support
+
+## 👨‍💻 Developer
+
+**Sashank Gotte**
+
+Built with ❤️ for students and learners.
+
+## 📄 License
+
+This project is open for learning and educational purposes.
+
